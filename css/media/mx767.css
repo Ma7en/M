@@ -1,0 +1,109 @@
+
+@media (max-width: 767px) {
+
+
+    body {
+        margin: var(--header-height) 0 0 0;
+    }
+
+    .nav {
+        height: var(--header-height);
+    }
+
+    .nav-list {
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    .nav-menu {
+        position: fixed;
+        background: var(--color-white);
+        width: 80%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        padding: 4rem 0 0 3rem;
+        z-index: 100;
+        transition: var(--main-transition);
+        border-radius: 1rem 0 0 1rem;
+        -webkit-border-radius: 1rem 0 0 1rem;
+        -moz-border-radius: 1rem 0 0 1rem;
+        -ms-border-radius: 1rem 0 0 1rem;
+        -o-border-radius: 1rem 0 0 1rem;
+        -webkit-transition: var(--main-transition);
+        -moz-transition: var(--main-transition);
+        -ms-transition: var(--main-transition);
+        -o-transition: var(--main-transition);
+}
+
+    /* show menu */
+    .show-menu {
+        right: 0;
+        transition: var(--main-transition);
+        -webkit-transition: var(--main-transition);
+        -moz-transition: var(--main-transition);
+        -ms-transition: var(--main-transition);
+        -o-transition: var(--main-transition);
+}
+
+    .nav-close,
+    .nav-toggle {
+        display: inline-flex;
+    }
+
+
+    /* start about */
+    .about-content .about-text,
+    .about-content .skills,
+    .services .service-item,
+    .education,
+    .experience,
+    .portfolio-item,
+    .contact-data,
+    .contact-form {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .prices {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .about-content .about-text {
+        margin-bottom: var(--m-1-5);
+    }
+
+    .education,
+    .blog-item,
+    .contact-data {
+        margin-bottom: var(--m-2-5);
+    }
+
+
+    /* start portfolio */
+    .portfolio-item,
+    .blog-item,
+    .fact-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    /* .portfolio-item-inner {
+        max-width: 50%;
+    } */
+
+    .customize-theme .card {
+        width: 75vw;
+    }
+
+
+
+
+
+
+
+
+
+}
+

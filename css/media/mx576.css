@@ -1,0 +1,63 @@
+
+
+/*  */
+
+@media (max-width: 576px) {
+
+
+    /* start portfolio */
+    .portfolio-item,
+    .blog-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio-item-inner,
+    .blog-item .inner {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .timline {
+        padding: 25px 20px;
+    }
+
+    .timline .timline-item {
+        padding-left: 35px;
+        padding-bottom: 20px;
+    }
+
+    .customize-theme .card {
+        width: 96vw;
+        padding: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+
+/*  */
+
+@media (max-width: 968px) {
+
+    /* start about */
+    .about-content,
+    .about-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .about-img {
+        text-align: center;
+        margin-bottom: var(--m-2-5);
+    }
+
+
+    /* start services */
+    .prices,
+    .services .service-item {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        margin-bottom: var(--m-2-5);
+    }
+
+    .price-item.best {
+        padding: var(--card-padding);
+    }
+
+    .prices:nth-child(odd) {
+        margin-top: 0;
+    }
+
+    .prices:nth-child(1) {
+        padding-right: 15px;
+    }
+
+    .prices:nth-child(2) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .prices:nth-child(3) {
+        padding-left: 15px;
+    }
+
+    .customize-theme .card {
+        width: 58vw;
+    }
+
+
+
+
+}
+
